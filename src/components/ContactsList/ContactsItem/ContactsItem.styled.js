@@ -29,4 +29,8 @@ export const ContactButton = styled.button`
     border-radius: ${p => p.theme.radii.normal};
     cursor: pointer;
     margin-left: auto;
+    :hover{
+        color: ${p => p.theme.colors.white};
+        background-color: ${p => p.theme.colors.accent};
+    };
 `;
